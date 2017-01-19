@@ -731,6 +731,7 @@ $settings['trusted_host_patterns'] = [
   '^.+\.local$',
   '^.+\.sandbox$',
   '^localhost$',
+  'lssn.com',
 ];
 
 /**
