@@ -1,0 +1,12 @@
+uuid: cbd022d1-7170-443a-bf3c-083b4338900a
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: kTJEQFpTapkGkf4XD51vPW2-7aZU7awzSenC65YDqGQ
+id: likert_agreement
+label: 'Likert: Agreement'
+options: "1: Much Worse\n2: Somewhat Worse\n3: About the Same\n4: Somewhat Better\n5: Much Better\n"

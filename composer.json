@@ -45,6 +45,7 @@
     "drupal/smart_trim": "1.x-dev",
     "drupal/twig_tweak": "~1",
     "drupal/video_embed_field": "~1",
+    "drupal/webform": "~5",
     "drush/config-extra": "~1",
     "drush/drush": "~8",
     "geerlingguy/drupal-vm": "dev-master"

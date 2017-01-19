@@ -1,4 +1,4 @@
-uuid: 4c6054f9-fbf6-48ba-bdf3-1fd13ccdec3e
+uuid: 1204703b-2a8e-47a2-ab45-eff2640f7c31
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: jmfZ73IDUpneecqVXUK3whGzTcvwLBBll9U3ZTCzndo
+  default_config_hash: HDMjKTBWeuHvsV6i6VvULmfhiSjNzIH1hCoy5GuZD0E
 id: comments_recent
 label: 'Recent comments'
 module: views

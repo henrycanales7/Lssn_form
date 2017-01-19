@@ -1,0 +1,95 @@
+uuid: 9042994a-1121-4525-bc06-534883e23d18
+langcode: en
+status: true
+dependencies: {  }
+uid: 1
+template: false
+id: lssn
+title: Lssn
+description: ''
+elements: "personal_information:\n  '#type': wizard_page\n  '#title': Inscription\n  per:\n    '#type': details\n    '#title': 'Personal Information'\n    '#open': true\n    row_1:\n      '#type': flexbox\n      student_name:\n        '#type': textfield\n        '#title': 'Student Name'\n        '#title_display': inline\n        '#flex': '7'\n        '#required': true\n    row_2:\n      '#type': flexbox\n      passport_country:\n        '#type': select\n        '#title': 'Passport Country'\n        '#options': country_names\n        '#required': true\n      passport_number:\n        '#type': textfield\n        '#title': 'Passport Number'\n        '#title_display': inline\n        '#size': '30'\n        '#required': true\n      email:\n        '#type': email\n        '#title': Email\n        '#title_display': inline\n        '#size': '10'\n        '#required': true\n    row_3:\n      '#type': flexbox\n      address:\n        '#type': textfield\n        '#title': Address\n        '#required': true\n      phone:\n        '#type': tel\n        '#title': Phone\n        '#format': value\n        '#required': true\n    row_4:\n      '#type': flexbox\n      emergencies:\n        '#type': textfield\n        '#title': 'Emergencies Contact'\n        '#required': true\n    row_5:\n      '#type': flexbox\n      identification:\n        '#type': label\n        '#title': 'Identification:'\n        '#title_display': inline\n      sex:\n        '#type': radios\n        '#title': Sex\n        '#options':\n          Male: Male\n          Female: Female\n        '#options_display': side_by_side\n        '#required': true\n      age:\n        '#type': number\n        '#title': 'Age:'\n        '#min': '0'\n        '#max': '100'\n        '#required': true\n      height:\n        '#type': textfield\n        '#size': 10\n        '#title': Height\n      weight:\n        '#type': number\n        '#title': Weight\n      hair:\n        '#type': textfield\n        '#title': 'Hair Color'\n    row_6:\n      '#type': flexbox\n      profession_career:\n        '#type': textfield\n        '#title': 'Profession or career'\n    row_7:\n      '#type': flexbox\n      beginning_saturday:\n        '#type': date\n        '#title': 'Program beginning (Saturday)'\n      program_end_saturday:\n        '#type': date\n        '#title': 'Program end (Saturday)'\n    about_lssn:\n      '#type': textarea\n      '#title': 'How did you hear about LSSN?'\n      '#rows': '5'\n  program_detail:\n    '#type': details\n    '#title': 'Program Detail'\n    program_costs:\n      '#type': flexbox\n      program_weeks:\n        '#type': number\n        '#title': 'Number of Weeks'\n        '#title_display': inline\n        '#flex': '7'\n      week_price:\n        '#type': number\n        '#title': 'Price of Weeks'\n        '#title_display': inline\n        '#flex': '7'\n      program_x:\n        '#type': label\n        '#title': x\n      program_participants:\n        '#type': number\n        '#title': 'Number of members'\n        '#title_display': inline\n        '#flex': '7'\n      program_equal:\n        '#type': label\n        '#title': '='\n      program_total:\n        '#type': number\n        '#title': Total\n        '#title_display': inline\n        '#flex': '7'\n    extra:\n      '#type': label\n      '#title': 'Extra tutorship'\n    extra_tutorship:\n      '#type': flexbox\n      extra_participants:\n        '#type': number\n        '#title': 'Number of Students'\n        '#title_display': inline\n        '#flex': '7'\n      extra_x:\n        '#type': label\n        '#title': x\n      extra_hours:\n        '#type': number\n        '#title': 'Number of hours per day'\n        '#title_display': inline\n        '#flex': '7'\n      extra_hours_price:\n        '#type': label\n        '#title': x\n      extra_price_hours:\n        '#type': number\n        '#title': 'Price of hours'\n        '#title_display': inline\n        '#flex': '7'\n      extra_day_week_x:\n        '#type': label\n        '#title': x\n      extra_total:\n        '#type': number\n        '#title': 'Numbers of days per week'\n        '#title_display': inline\n        '#flex': '7'\n      extra_equal:\n        '#type': label\n        '#title': '='\n    lodging_plans:\n      '#type': label\n      '#title': 'Lodging Plans: Sunday to Saturday with Private or shared room'\n    lodging:\n      '#type': flexbox\n      lodging_participants:\n        '#type': number\n        '#title': 'Number of members'\n        '#flex': '7'\n      lodging_price:\n        '#type': number\n        '#title': Price\n        '#flex': '7'\n      lodging_number_of_weeks:\n        '#type': number\n        '#title': 'Number of weeks'\n        '#flex': '7'\n      lodging_equal:\n        '#type': label\n        '#title': '='\n      lodging_total:\n        '#type': number\n        '#title': Total\n        '#flex': '7'\n    extra_lodging:\n      '#type': flexbox\n      extra_lodging_day:\n        '#type': number\n        '#title': 'Extra lodging day'\n        '#flex': '7'\n      extra_lodging_participants_x:\n        '#type': label\n        '#title': x\n      extra_lodging_participants:\n        '#type': number\n        '#title': 'Numbers of members'\n        '#title_display': inline\n        '#flex': '7'\n      extra_lodging_price_x:\n        '#type': label\n        '#title': x\n      extra_lodging_price:\n        '#type': number\n        '#title': Price\n        '#title_display': inline\n        '#flex': '7'\n      extra_lodging_equals:\n        '#type': label\n        '#title': '='\n      extra_lodging_total:\n        '#type': number\n        '#title': Total\n        '#flex': '7'\n  cost_summary:\n    '#type': details\n    '#title': 'Cost Summary'\n    cost_row_1:\n      '#type': flexbox\n      label_lessons_or_activities:\n        '#type': label\n        '#title': 'Lessons or Activities'\n        '#title_display': inline\n        '#flex': '4'\n      lessons_or_activities:\n        '#type': number\n        '#title': 'Lessons or Activities........'\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n        '#size': '10'\n        '#maxlength': '10'\n    cost_row_2:\n      '#type': flexbox\n      label_tutorship:\n        '#type': label\n        '#title': Tutorship\n        '#title_display': inline\n        '#flex': '4'\n      tutorship:\n        '#type': number\n        '#title': Tutorship.................\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n        '#attributes':\n          style: 'margin-left:5px'\n    cost_row_3:\n      '#type': flexbox\n      label_class_total:\n        '#type': label\n        '#title': 'Class and activities Total '\n        '#title_display': inline\n        '#flex': '4'\n      class_total:\n        '#type': number\n        '#title': 'Class and activities Total '\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n    cost_row_4:\n      '#type': flexbox\n      label_registration_fee:\n        '#type': label\n        '#title': 'Registration Fee'\n        '#title_display': inline\n        '#flex': '4'\n      registration_fee:\n        '#type': number\n        '#title': 'Registration Fee'\n        '#description': '(2 = U$ 45/ 3 = U$ 55/ 4 or more U$ 65)'\n        '#title_display': invisible\n        '#description_display': tooltip\n        '#field_prefix': $\n        '#flex': '8'\n    cost_row_5:\n      '#type': flexbox\n      label_extralodging:\n        '#type': label\n        '#title': Extralodging\n        '#title_display': inline\n        '#flex': '4'\n      extralodging:\n        '#type': number\n        '#title': Extralodging\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n    cost_row_6:\n      '#type': flexbox\n      label_family_homestay:\n        '#type': label\n        '#title': 'Family Homestay'\n        '#title_display': inline\n        '#flex': '4'\n      family_homestay:\n        '#type': number\n        '#title': 'Family Homestay'\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n    cost_row_7:\n      '#type': flexbox\n      label_transport:\n        '#type': label\n        '#title': 'Transport / other services'\n        '#title_display': inline\n        '#flex': '4'\n      transport:\n        '#type': number\n        '#title': 'Transport / other services'\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n    cost_row_8:\n      '#type': flexbox\n      label_total_without_discount:\n        '#type': label\n        '#title': 'Total without discount'\n        '#title_display': inline\n        '#flex': '4'\n      total_without_discount:\n        '#type': number\n        '#title': 'Total without discount'\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n    cost_row_9:\n      '#type': flexbox\n      label_discount_included:\n        '#type': label\n        '#title': 'Discount Included'\n        '#title_display': inline\n        '#flex': '4'\n      discount_included:\n        '#type': number\n        '#title': 'Discount Included'\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n    cost_row_10:\n      '#type': flexbox\n      label_total_amount_due:\n        '#type': label\n        '#title': 'Total Amount Due'\n        '#title_display': inline\n        '#flex': '4'\n      total_amount_due:\n        '#type': number\n        '#title': 'Total Amount Due'\n        '#title_display': invisible\n        '#field_prefix': $\n        '#flex': '8'\n  terms_and_policies:\n    '#type': details\n    '#title': 'Terms and Policies'\n    '#title_display': before\n    text_terms:\n      '#type': processed_text\n      '#text': \"<p><span lang=\\\"en-US\\\">I understand and agree to the terms and policies of this contract as described above. I agree to not hold LSSN, its school, agents or employees liable for any injury or loss that I or my property may experience during the course of my travel or Spanish school program, activities or home stay. I am in good enough physical/mental/emotional health to adapt to the challenge of travelling and living in a foreign environment and culture. I agree to act with civility and consideration toward my fellow students, LSSN personnel, and the native populations with which I will be in contact during the duration of my program and home stay. He/she has to be paid the total cost to reserve or to begin the program. Cancellation of reservations four weeks or less before the beginning of the program he/she receives refund less 50% of the value of the reserved weeks. There is not refund of the inscription rate. Cancellations are not possible once the course has started. No refund shall be given after the day the course is due to start. Program changes rate U$25.00. In case the student retires after the beginning of her program, she is granted a refund of 50% of the price of the remaining whole weeks. All cancellation requires delivered written notice at least to LSSN with one week in advance. I understand and I accept the terms of this program reason why I write and it signed:</span></p>\\r\\n\"\n      '#format': basic_html\n    terms_agree:\n      '#type': radios\n      '#title': radio_agree\n      '#title_display': invisible\n      '#options':\n        agree: 'I Agree with the terms and policies'\n      '#required': true\n      '#required_error': 'Accept Terms and Policies'\n"
+css: ''
+javascript: ''
+settings:
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_label: ''
+  form_submit_attributes: {  }
+  form_exception_message: ''
+  form_closed_message: ''
+  form_confidential: false
+  form_confidential_message: ''
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  wizard_progress_bar: false
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_next_button_label: ''
+  wizard_next_button_attributes: {  }
+  wizard_prev_button_label: ''
+  wizard_prev_button_attributes: {  }
+  wizard_start_label: ''
+  wizard_complete: false
+  wizard_complete_label: ''
+  preview: 1
+  preview_next_button_label: ''
+  preview_next_button_attributes: {  }
+  preview_prev_button_label: ''
+  preview_prev_button_attributes: {  }
+  preview_message: ''
+  draft: false
+  draft_auto_save: false
+  draft_button_label: ''
+  draft_button_attributes: {  }
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_message: ''
+  entity_limit_total: null
+  entity_limit_user: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+handlers: {  }
