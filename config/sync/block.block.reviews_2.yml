@@ -1,0 +1,25 @@
+uuid: 1bd2dde0-97ca-4e8a-8aa7-8db32b7c679c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4d5f130e-5620-4505-a918-af929d10a09f'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: reviews_2
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:4d5f130e-5620-4505-a918-af929d10a09f'
+settings:
+  id: 'block_content:4d5f130e-5620-4505-a918-af929d10a09f'
+  label: Reviews
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

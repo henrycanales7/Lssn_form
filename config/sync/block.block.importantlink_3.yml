@@ -1,0 +1,25 @@
+uuid: b9b1aee1-a73f-422f-9bfb-bbed1959fc70
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5ac56806-e00d-43f9-bba7-9acec2288435'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: importantlink_3
+theme: custom_theme
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'block_content:5ac56806-e00d-43f9-bba7-9acec2288435'
+settings:
+  id: 'block_content:5ac56806-e00d-43f9-bba7-9acec2288435'
+  label: 'Important Link'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

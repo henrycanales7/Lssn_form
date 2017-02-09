@@ -1,0 +1,25 @@
+uuid: fbcfa2a4-7a60-4ab0-aff1-5bcfe0139210
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:5ac56806-e00d-43f9-bba7-9acec2288435'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: importantlink
+theme: bartik
+region: '-1'
+weight: 0
+provider: null
+plugin: 'block_content:5ac56806-e00d-43f9-bba7-9acec2288435'
+settings:
+  id: 'block_content:5ac56806-e00d-43f9-bba7-9acec2288435'
+  label: 'Important Link'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

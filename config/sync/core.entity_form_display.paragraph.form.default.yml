@@ -1,0 +1,29 @@
+uuid: 3796f844-f525-4468-b8a8-56b586e21c0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.form.field_columns
+    - field.field.paragraph.form.field_form
+    - paragraphs.paragraphs_type.form
+  module:
+    - content_moderation
+id: paragraph.form.default
+targetEntityType: paragraph
+bundle: form
+mode: default
+content:
+  field_columns:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_form:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+hidden:
+  created: true
+  status: true
+  uid: true

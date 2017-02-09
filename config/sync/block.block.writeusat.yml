@@ -1,0 +1,25 @@
+uuid: e639740d-84be-46a0-b7c0-7306826e50c6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3c94d1df-75aa-4fc7-b75b-486ece3589e2'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: writeusat
+theme: custom_theme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'block_content:3c94d1df-75aa-4fc7-b75b-486ece3589e2'
+settings:
+  id: 'block_content:3c94d1df-75aa-4fc7-b75b-486ece3589e2'
+  label: 'Write us at:'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

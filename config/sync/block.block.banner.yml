@@ -1,0 +1,25 @@
+uuid: a229444e-ead0-4b9c-852b-2275fd8ca102
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ef6d0572-d895-46da-8be5-b45d98fc33f9'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: banner
+theme: custom_theme
+region: navigation
+weight: -8
+provider: null
+plugin: 'block_content:ef6d0572-d895-46da-8be5-b45d98fc33f9'
+settings:
+  id: 'block_content:ef6d0572-d895-46da-8be5-b45d98fc33f9'
+  label: Banner
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

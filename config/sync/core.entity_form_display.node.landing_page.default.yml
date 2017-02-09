@@ -21,13 +21,14 @@ content:
     third_party_settings: {  }
   field_regions:
     type: entity_reference_paragraphs
-    weight: 32
+    weight: 60
     settings:
       title: Paragraph
       title_plural: Paragraphs
       edit_mode: open
       add_mode: dropdown
       form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
   path:
     type: path

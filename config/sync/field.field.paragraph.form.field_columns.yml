@@ -1,0 +1,23 @@
+uuid: ded27106-7879-4740-871e-35a034fe51e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_columns
+    - paragraphs.paragraphs_type.form
+id: paragraph.form.field_columns
+field_name: field_columns
+entity_type: paragraph
+bundle: form
+label: Columns
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:classy_paragraphs_style'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

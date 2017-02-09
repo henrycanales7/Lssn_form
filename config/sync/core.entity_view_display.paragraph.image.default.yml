@@ -12,7 +12,7 @@ bundle: image
 mode: default
 content:
   field_media:
-    weight: 0
+    weight: 1
     label: hidden
     settings:
       view_mode: default

@@ -34,11 +34,14 @@ module:
   file: 0
   file_browser: 0
   filter: 0
+  galleryformatter: 0
   google_analytics: 0
   help: 0
   history: 0
   image: 0
   inline_form_errors: 0
+  juicebox: 0
+  libraries: 0
   link: 0
   link_attributes: 0
   media_entity: 0
@@ -53,6 +56,7 @@ module:
   quickedit: 0
   rdf: 0
   redirect: 0
+  responsive_image: 0
   search: 0
   shortcut: 0
   simple_sitemap: 0
@@ -67,12 +71,12 @@ module:
   update: 0
   user: 0
   views_ui: 0
-  menu_link_content: 1
   webform: 0
   webform_examples: 0
   webform_node: 0
   webform_templates: 0
   webform_ui: 0
+  menu_link_content: 1
   views: 10
   paragraphs: 11
 theme:

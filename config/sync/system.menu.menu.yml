@@ -1,0 +1,8 @@
+uuid: 687b0c8a-f84b-4e31-acab-7f99607cc906
+langcode: en
+status: true
+dependencies: {  }
+id: menu
+label: menu
+description: ''
+locked: false

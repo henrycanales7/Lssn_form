@@ -1,0 +1,25 @@
+uuid: 8db33d91-8783-488d-8d51-682e09720af6
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:6f92ffe1-6b0d-4330-a190-a1c1ea7679bf'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: telephone
+theme: custom_theme
+region: '-1'
+weight: 0
+provider: null
+plugin: 'block_content:6f92ffe1-6b0d-4330-a190-a1c1ea7679bf'
+settings:
+  id: 'block_content:6f92ffe1-6b0d-4330-a190-a1c1ea7679bf'
+  label: Telephone
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

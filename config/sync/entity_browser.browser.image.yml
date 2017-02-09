@@ -15,6 +15,7 @@ display_configuration:
   width: '650'
   height: '500'
   link_text: 'Select image(s)'
+  auto_open: false
 selection_display: multi_step_display
 selection_display_configuration:
   entity_type: media
@@ -41,8 +42,8 @@ widgets:
   05fa3137-a235-4ce1-b553-1f3c9641bd79:
     settings:
       view: media_browser
-      view_display: entity_browser_1
-      submit_text: 'Select entities'
+      view_display: image_browser
+      submit_text: 'Select image'
     uuid: 05fa3137-a235-4ce1-b553-1f3c9641bd79
     weight: 2
     label: 'Select existing'

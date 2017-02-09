@@ -16,12 +16,12 @@ bundle: image
 mode: default
 content:
   field_columns:
-    weight: 7
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     type: options_select
   field_media:
-    weight: 6
+    weight: 0
     settings:
       entity_browser: image
       field_widget_display: rendered_entity
