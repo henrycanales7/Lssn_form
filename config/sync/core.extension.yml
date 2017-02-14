@@ -34,14 +34,11 @@ module:
   file: 0
   file_browser: 0
   filter: 0
-  galleryformatter: 0
   google_analytics: 0
   help: 0
   history: 0
   image: 0
   inline_form_errors: 0
-  juicebox: 0
-  libraries: 0
   link: 0
   link_attributes: 0
   media_entity: 0
