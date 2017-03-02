@@ -1,21 +1,21 @@
-uuid: 8db33d91-8783-488d-8d51-682e09720af6
+uuid: 692e620d-7d61-4fca-8284-3602fce5d9c2
 langcode: en
-status: false
+status: true
 dependencies:
   content:
-    - 'block_content:basic:6f92ffe1-6b0d-4330-a190-a1c1ea7679bf'
+    - 'block_content:basic:bfdd8dfd-694c-45e6-90a4-14e5ea7452ac'
   module:
     - block_content
   theme:
     - custom_theme
 id: telephone
 theme: custom_theme
-region: '-1'
-weight: 0
+region: footer
+weight: -9
 provider: null
-plugin: 'block_content:6f92ffe1-6b0d-4330-a190-a1c1ea7679bf'
+plugin: 'block_content:bfdd8dfd-694c-45e6-90a4-14e5ea7452ac'
 settings:
-  id: 'block_content:6f92ffe1-6b0d-4330-a190-a1c1ea7679bf'
+  id: 'block_content:bfdd8dfd-694c-45e6-90a4-14e5ea7452ac'
   label: Telephone
   provider: block_content
   label_display: '0'

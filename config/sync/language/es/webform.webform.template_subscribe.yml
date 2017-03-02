@@ -1,0 +1,8 @@
+title: Suscribirse
+settings:
+  form_submit_label: Suscribirse
+handlers:
+  email_notification:
+    settings:
+      subject: predeterminado
+      body: predeterminado

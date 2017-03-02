@@ -2,10 +2,6 @@ uuid: 24c99b2e-1c53-479e-8b46-fde897122379
 langcode: en
 status: false
 dependencies:
-  content:
-    - 'block_content:basic:4d5f130e-5620-4505-a918-af929d10a09f'
-  module:
-    - block_content
   theme:
     - bartik
 id: reviews

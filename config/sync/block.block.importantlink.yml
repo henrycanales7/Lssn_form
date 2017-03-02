@@ -2,10 +2,6 @@ uuid: fbcfa2a4-7a60-4ab0-aff1-5bcfe0139210
 langcode: en
 status: false
 dependencies:
-  content:
-    - 'block_content:basic:5ac56806-e00d-43f9-bba7-9acec2288435'
-  module:
-    - block_content
   theme:
     - bartik
 id: importantlink

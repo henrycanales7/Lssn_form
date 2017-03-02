@@ -1,9 +1,9 @@
-uuid: b9b1aee1-a73f-422f-9bfb-bbed1959fc70
+uuid: f1500404-1bef-4afe-84c6-aa0227e92698
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:5ac56806-e00d-43f9-bba7-9acec2288435'
+    - 'block_content:basic:51aad3fb-4db1-43a0-b11d-11555fe04761'
   module:
     - block_content
   theme:
@@ -11,11 +11,11 @@ dependencies:
 id: importantlink_3
 theme: custom_theme
 region: sidebar_first
-weight: -6
+weight: -5
 provider: null
-plugin: 'block_content:5ac56806-e00d-43f9-bba7-9acec2288435'
+plugin: 'block_content:51aad3fb-4db1-43a0-b11d-11555fe04761'
 settings:
-  id: 'block_content:5ac56806-e00d-43f9-bba7-9acec2288435'
+  id: 'block_content:51aad3fb-4db1-43a0-b11d-11555fe04761'
   label: 'Important Link'
   provider: block_content
   label_display: '0'

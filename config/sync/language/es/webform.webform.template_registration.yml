@@ -1,0 +1,8 @@
+title: Registro
+settings:
+  form_submit_label: Registro
+handlers:
+  email_notification:
+    settings:
+      subject: predeterminado
+      body: predeterminado

@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.page.body
     - node.type.page
   module:
+    - content_moderation
     - path
     - text
 _core:
@@ -26,6 +27,11 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
     settings: {  }
     third_party_settings: {  }
   path:

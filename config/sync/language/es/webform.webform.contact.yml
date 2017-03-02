@@ -1,0 +1,11 @@
+title: Contacto
+settings:
+  form_submit_label: 'Enviar mensaje'
+  confirmation_message: 'Se ha enviado su mensaje.'
+handlers:
+  email_confirmation:
+    settings:
+      from_name: predeterminado
+  email_notification:
+    label: 'Aviso por correo electrónico'
+elements: "name:\n  '#title': 'Tu Nombre'\nemail:\n  '#title': 'Tu Email'\nsubject:\n  '#title': Asunto\nmessage:\n  '#title': Mensaje\n"

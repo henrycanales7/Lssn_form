@@ -1,0 +1,18 @@
+uuid: 8a178e30-b946-4474-888c-92135ec57f15
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.promotion
+id: block_content.promotion.info
+field_name: info
+entity_type: block_content
+bundle: promotion
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

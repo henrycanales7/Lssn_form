@@ -1,0 +1,7 @@
+settings:
+  form_submit_label: Aplicar
+handlers:
+  email_notification:
+    settings:
+      subject: predeterminado
+      body: predeterminado

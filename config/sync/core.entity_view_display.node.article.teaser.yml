@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.field_image
     - field.field.node.article.field_parrafo
+    - field.field.node.article.field_parrafo2
     - field.field.node.article.field_tags
     - image.style.medium
     - node.type.article
@@ -48,4 +49,6 @@ content:
 hidden:
   field_image: true
   field_parrafo: true
+  field_parrafo2: true
   field_tags: true
+  langcode: true

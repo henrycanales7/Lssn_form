@@ -1,9 +1,9 @@
-uuid: 1c516f0a-7f1c-4ce6-b04a-9bb9640d4a4b
+uuid: 55ac5f6b-c2ee-4254-ba2d-ff189653bbd7
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:4d5f130e-5620-4505-a918-af929d10a09f'
+    - 'block_content:basic:9174c687-e42f-48f2-959c-daf678b875ab'
   module:
     - block_content
   theme:
@@ -11,11 +11,11 @@ dependencies:
 id: reviews_3
 theme: custom_theme
 region: sidebar_first
-weight: -7
+weight: -6
 provider: null
-plugin: 'block_content:4d5f130e-5620-4505-a918-af929d10a09f'
+plugin: 'block_content:9174c687-e42f-48f2-959c-daf678b875ab'
 settings:
-  id: 'block_content:4d5f130e-5620-4505-a918-af929d10a09f'
+  id: 'block_content:9174c687-e42f-48f2-959c-daf678b875ab'
   label: Reviews
   provider: block_content
   label_display: '0'

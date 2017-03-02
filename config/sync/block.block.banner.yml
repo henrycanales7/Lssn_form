@@ -1,9 +1,9 @@
-uuid: a229444e-ead0-4b9c-852b-2275fd8ca102
+uuid: e5c46e56-53ac-46cb-a76c-b177ba9aeb27
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:ef6d0572-d895-46da-8be5-b45d98fc33f9'
+    - 'block_content:basic:44cd1e57-ec18-41d4-b3ab-f25665625702'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: custom_theme
 region: navigation
 weight: -8
 provider: null
-plugin: 'block_content:ef6d0572-d895-46da-8be5-b45d98fc33f9'
+plugin: 'block_content:44cd1e57-ec18-41d4-b3ab-f25665625702'
 settings:
-  id: 'block_content:ef6d0572-d895-46da-8be5-b45d98fc33f9'
+  id: 'block_content:44cd1e57-ec18-41d4-b3ab-f25665625702'
   label: Banner
   provider: block_content
   label_display: '0'

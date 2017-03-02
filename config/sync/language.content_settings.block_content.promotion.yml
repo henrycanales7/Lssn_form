@@ -1,0 +1,16 @@
+uuid: f275657c-2261-4422-9c3d-07590fa16e9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.promotion
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: block_content.promotion
+target_entity_type_id: block_content
+target_bundle: promotion
+default_langcode: site_default
+language_alterable: false

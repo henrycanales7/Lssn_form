@@ -1,0 +1,9 @@
+settings:
+  default_form_submit_label: Enviar
+  default_wizard_prev_button_label: '< Página anterior'
+  default_wizard_next_button_label: 'Página siguiente >'
+  default_wizard_start_label: Comienzo
+  default_wizard_complete_label: Completo
+  default_preview_next_button_label: Previsualizar
+  default_preview_prev_button_label: '< Anterior'
+  default_draft_button_label: 'Guardar borrador'

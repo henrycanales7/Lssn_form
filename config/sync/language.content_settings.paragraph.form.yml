@@ -1,0 +1,16 @@
+uuid: c4a26003-8d83-4ff4-9323-62d2afbbc0aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.form
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.form
+target_entity_type_id: paragraph
+target_bundle: form
+default_langcode: site_default
+language_alterable: false

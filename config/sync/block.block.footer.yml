@@ -1,0 +1,24 @@
+uuid: 2e396e38-3d36-46d3-b21f-294a04d0a2e8
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - custom_theme
+id: footer
+theme: custom_theme
+region: '-1'
+weight: -9
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
